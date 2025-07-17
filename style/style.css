@@ -5,3 +5,16 @@
   font-weight: <weight>;
   font-style: normal;
 }
+.display-flex {
+    display: flex;
+}
+.clr.text-dark2 {
+    color: rgba(66, 66, 66, 1);
+}
+.nav-ul-list {
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-ul-list-link {
+    text-decoration: none;
+}
