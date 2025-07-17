@@ -59,10 +59,43 @@
     font-size: 4rem;
     font-weight: bold;
 }
-.btn-dsctpn {
+.bnr-dsctpn {
     font-size: 16px;
     font-weight: 100px;
 }
 .bnr-img {
     width: 100%;
+}
+.mn-sec1 {
+    display: flex;
+    align-items: center;
+}
+.mn-sec1-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.mn-sec-prt2 {
+    max-width: 537px;
+    padding-left: 73px;
+}
+#mn-sec-prt2-titl1 {
+    font-size: 45px;
+    font-weight: 100px;
+}
+#mn-sec-prt2-titl2 {
+    font-size: 45px;
+    font-weight: bold;
+}
+#mn-sec-prt2-titl3 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #FF900E;
+}
+
+
+@media screen and (max-width: 576px) {
+    .navbar, .nav-ul-list {
+        flex-direction: column;
+    }
 }
